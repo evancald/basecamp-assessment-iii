@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Day from './Day.js';
 
 function Button(props) {
   return (
@@ -17,12 +18,12 @@ function Welcome() {
 
 //Component 2: Displays today is {day of week}
 
-function Day() {
-  let currentDate = new Date();
-  let dayAsNum = currentDate.getDay();
-  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  return <h2>Today is {days[dayAsNum]}</h2>;
-}
+// function Day() {
+//   let currentDate = new Date();
+//   let dayAsNum = currentDate.getDay();
+//   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+//   return <h2>Today is {days[dayAsNum]}</h2>;
+// }
 
 //Component 3: Displays a button that doesn't do anything
 
